@@ -153,6 +153,7 @@ local function getexploit()
 end
 getexploit()
 
+
 -- Player Infos
 
 local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
