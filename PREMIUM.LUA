@@ -1,4 +1,4 @@
---[[   PROTECTED BY PTACIKCZ     --]] if getgenv().executed then return end
+if getgenv().executed then return end
 getgenv().executed = true
 
 local runService = game:GetService("RunService")
