@@ -1,4 +1,4 @@
-if getgenv().executed then return end
+--[[   PROTECTED BY PTACIKCZ     --]] if getgenv().executed then return end
 getgenv().executed = true
 
 local runService = game:GetService("RunService")
@@ -127,7 +127,6 @@ end
 
 request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request or
     HttpPost
-
 
 -- Exploit's Name
 
